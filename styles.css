@@ -1,0 +1,66 @@
+html, body {
+    background-color: black;
+    height: 100%;
+    margin: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    text-transform: uppercase;
+    color: rgb(211, 86, 3);
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+hr {
+   background-color: rgb(253, 252, 252);
+   height: 1px;
+   margin: 40px 0;
+}
+.outer-container {
+    width: 35%;
+    background-color: aliceblue;
+    padding: 100px;
+    height: 100%;
+}
+.center-top {
+    text-align: center;
+}
+.center-top p {
+    color: rgb(0, 0, 0, 0.5);
+    margin-top: 0;
+}
+.align-text {
+    margin-left: 80px;
+}
+.h2 {
+    color: rgb(211, 86, 3);
+    font-size: 21px;
+    margin-top: 30px;
+}
+.h3 {
+    font-size: 19px;
+    font-weight: 550;
+    margin-top: 40px;
+}
+.text {
+    font-size: 14px;
+    font-weight: 100;
+}
+@media (max-width: 768px) {
+    .align-left {
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    .outer-container {
+        width: 50%;
+        overflow: auto;
+    }
+    p {
+        font-size: 10px;
+    }
+}
