@@ -60,6 +60,9 @@ hr {
         width: 50%;
         overflow: auto;
     }
+    .align-text {
+        margin-left: 0px;
+    }
     p {
         font-size: 10px;
     }
